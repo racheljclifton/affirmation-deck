@@ -1,6 +1,5 @@
 package com.techelevator;
 
-import javax.accessibility.AccessibleAction;
 import java.util.List;
 import java.util.Scanner;
 
@@ -17,21 +16,24 @@ public class AffirmationCardPicker {
         //prompt user to pick a category
         System.out.println("\nWould you like to pick an Affirmation Card from a deck with a specific category in mind?" +
                 "\n[1] Life" +
-                "\n[2] Self-Doubt" +
+                "\n[2] Self-Love" +
                 "\n[3] Change" +
-                "\n[4] No Category");
+                "\n[4] Positive Thinking" +
+                "\n[5] No Category");
         int choice = Integer.parseInt(input.nextLine());
 
 
         //create remove wrong category cards from deck
-        if (choice == 1 || choice == 2 || choice == 3) {
+        if (choice == 1 || choice == 2 || choice == 3 || choice == 4) {
             Category categoryChoice;
             if (choice == 1) {
                 categoryChoice = Category.LIFE;
             } else if (choice == 2) {
-                categoryChoice = Category.SELFDOUBT;
-            } else {
+                categoryChoice = Category.SELFLOVE;
+            } else if (choice == 3){
                 categoryChoice = Category.CHANGE;
+            } else {
+                categoryChoice = Category.POSITIVETHINKING;
             }
             deckList.removeIf(card -> card.getCategory() != categoryChoice);
         }
@@ -104,4 +106,5 @@ public class AffirmationCardPicker {
                 "\n\nNamaste");
 
     }
+
 }
