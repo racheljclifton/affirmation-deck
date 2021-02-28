@@ -1,1 +1,1 @@
-# In my 3rd week of Java Bootcamp, I created this Virtual Affirmation Deck that shuffles and draws an affirmation card from a deck based on user input in the command line.
+# In my 3rd week of Java Bootcamp, I created this Virtual Affirmation Deck that uses File I/O to create a deck of affirmation cards, and then shuffles and draws an affirmation card of a certain category from that deck based on user input in the command line.
