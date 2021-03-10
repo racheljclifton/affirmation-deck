@@ -1,4 +1,4 @@
-package com.techelevator;
+package com.techelevator.affirmationcards;
 
 public class AffirmationCard {
     //attributes

@@ -1,9 +1,13 @@
 package com.techelevator;
 
+import com.techelevator.affirmationcards.AffirmationCard;
+import com.techelevator.affirmationcards.Category;
+import com.techelevator.affirmationcards.DeckOfAffirmationCards;
+
 import java.util.List;
 import java.util.Scanner;
 
-public class AffirmationCardPicker {
+public class App {
 
     public static void main(String[] args){
 

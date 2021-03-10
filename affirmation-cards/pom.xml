@@ -14,18 +14,18 @@
     </properties>
 
     <build>
-    <plugins>
-        <plugin>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-maven-plugin</artifactId>
-            <version>2.4.1</version>
-            <configuration>
-                <mainClass>
-                    com.techelevator.AffirmationCardPicker
-                </mainClass>
-            </configuration>
-        </plugin>
-    </plugins>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.4.1</version>
+                <configuration>
+                    <mainClass>
+                        com.techelevator.App
+                    </mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
 
 </project>

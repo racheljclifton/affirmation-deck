@@ -1,4 +1,6 @@
-package com.techelevator;
+package com.techelevator.affirmationcards;
+
+import com.techelevator.affirmationcards.AffirmationCard;
 
 import java.io.File;
 import java.io.IOException;
